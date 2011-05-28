@@ -1,0 +1,41 @@
+body {
+  overflow-x:hidden;
+  font-family : 'Ubuntu', sans-serif;
+  margin:0px;
+  padding:0px;
+}
+
+#bar {
+  height:4%;
+  border-top:4px solid #5471D9;
+  border-bottom:3px solid #5471D9;
+  background-color:#A8B4E4;
+  padding-top:0.25em;
+  padding-left:0.75em;
+  padding-right:0.75em;
+}
+button {
+  cursor:pointer;
+  padding-left:0.25em;
+  padding-right:0.25em;
+  margin-left:0.25em;
+  margin-right:0.25em;
+}
+
+#help {
+  position:absolute;
+  top:20%;
+  height:16em;
+  width:55%;
+  left:25%;
+  padding:1em;
+  border:4px solid #5471D9;
+  background-color:#A8B4E4;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+
+i {
+  font-size:105%;
+}

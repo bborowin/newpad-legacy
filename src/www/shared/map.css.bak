@@ -1,0 +1,184 @@
+body {
+  font-family : 'Ubuntu', sans-serif;
+  min-width: 550px;
+  padding:0px;
+  margin:0px;
+}
+
+button {
+  cursor:pointer;
+}
+
+#navbar {
+  padding-left:0.75em;
+  border-bottom:3px solid #5471D9;
+  border-top:4px solid #5471D9;
+  background-color:#A8B4E4;
+  height: 4%;
+  width: 100%;
+}
+
+input {
+  font-size:110%;
+  margin-right:1em;
+}
+
+#container {
+  padding-left: 160px;
+}
+
+#container .column {
+  position: relative;
+  float: left;
+}
+
+#map_canvas {
+  height:100%;
+  width: 100%;
+}
+
+#left {
+  width: 160px;
+  right: 160px;
+  height:100%;
+  margin-left: -100%;
+  background-color:#BFBFBF;
+}
+
+#footer {
+  clear: both;
+}
+
+/*** IE6 Fix ***/
+* html #left {
+  left: 150px;
+}
+
+#prices
+{
+  position:absolute;
+  right:5em; top:2.5em;
+  background-color:white;
+  opacity:0.85;
+  -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+
+#slider_container
+{
+  padding:1em;
+  position:absolute;
+  right:1em; top:2.5em;
+  height:60%;
+  background-color:white;
+  opacity:0.85;
+  -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+
+#amount
+{
+  text-align:center;
+  margin:10px;
+  font-size:180%;
+}
+
+#container .column {
+  position: relative;
+  float: left;
+}
+
+#introDiv
+{
+  text-align:center;
+  padding:1.5em;
+  font-size:125%;
+  position:absolute;
+  left:22%; top:30%;
+  width:50%;
+  background-color:#F8F8A8;
+  border:1px solid #D0D070;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  opacity:0.9;
+}
+
+#disableIntroDiv
+{
+  font-size:70%;
+  margin-left:0.5em;
+  padding-left:0.5em;
+  padding-right:0.5em;
+  padding-top:0.25em;
+  padding-bottom:0.25em;
+  background-color:#FFAB00;
+  border:1px solid #CF7406;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  cursor:pointer;
+}
+
+#dismissDiv
+{
+  font-size:70%;
+  margin-right:4em;
+  padding-left:0.5em;
+  padding-right:0.5em;
+  padding-top:0.25em;
+  padding-bottom:0.25em;
+  background-color:#CDFF3C;
+  border:1px solid #92C400;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  cursor:pointer;
+}
+
+#legendDiv
+{
+  padding:7px;
+  background-color:white;
+  border:2px solid #4E64DC;
+  position:absolute;
+  left:175px;
+  bottom:50px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+}
+
+#processingDiv
+{
+  position:absolute;
+  left:50%;
+  top:50%;
+}
+
+#cpDiv
+{
+  position:absolute;
+  right:0.25em;
+  bottom:1em;
+}
+
+.flag_expired
+{
+  cursor:pointer;
+  margin-top:1em;
+  margin-right:1em;
+}
+
+.flag_like
+{
+  cursor:pointer;
+  margin-top:1em;
+  margin-right:1em;
+}
+
+.flag_unlike
+{
+  cursor:pointer;
+  margin-top:1em;
+  margin-right:1em;
+}
+
