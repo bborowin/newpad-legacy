@@ -121,8 +121,8 @@ echo '<link href="map_noads.css?time=' . filemtime($map_css) . '" rel="styleshee
   <div id="map_canvas"></div>
   
   <div id="prices"><div id="amount">please wait</div></div>
-  <div style="background-image: url('img/price_gradient.png');" id="slider_container">
-    <div id="slider" style="background-image: url('img/price_gradient.png'); margin:0em; height:100%;"></div>
+  <div style="background-image: url('/static/img/price_gradient.png');" id="slider_container">
+    <div id="slider" style="background-image: url('/static/img/price_gradient.png'); margin:0em; height:100%;"></div>
   </div>
   <div id='cpDiv'>Copyright 2011 Newpad.ca</div>
   </div></div>
@@ -178,7 +178,7 @@ echo '<link href="map_noads.css?time=' . filemtime($map_css) . '" rel="styleshee
   ?>
   </select>
   </div>
-  <div onclick="$('#help').toggle();" id="help_button"><img src="img/help.png" /></div>
+  <div onclick="$('#help').toggle();" id="help_button"><img src="/static/img/help.png" /></div>
   <div id="help">
 The first time you use this site, it might take a minute to load all the data -- subsequent visits should be a bit more zippy.<br/>
 <br/>

@@ -153,12 +153,3 @@ class Schedule:
 s = Schedule()
 s.Go()
 #s.InitialImport("'guelph'")
-
-# get average daily posting counts for each update
-# calculate starvation levels for each update 
-#cities = s.s.GetList("select name from main.Cities where name not in ('toronto', 'montreal', 'vancouver');")
-#while True:
-#  pending = s.GetPending()
-#
-#
-#  time.sleep(15)

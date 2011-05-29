@@ -162,7 +162,7 @@ function sprite(radius, shade, opacity, colour)
   // 8 dot radiuss (11 [0] to 3 px [8])
   if(radius > 8) radius = 8; else if(radius < 0) radius = 0;
 
-  var trunk = 'img/' + colour + "/";
+  var trunk = '/static/img/' + colour + "/";
 
   //opacity = 2;
   var px = 11 - radius;

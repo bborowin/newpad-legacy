@@ -43,7 +43,7 @@
   function sprite(colour, size, flag)
   {
     var px = 11 - size;
-    var trunk = 'img/';
+    var trunk = '/static/img/';
     switch(flag)
     {
       case 0:
