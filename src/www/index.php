@@ -92,7 +92,7 @@ function ShowCities()
 
 ?>
 
-<div id="banner">
+<div id="banner"><img src="/static/img/button_big.png"></img>
 Welcome to Newpad!
 <span style="float:right; padding-right:6em; padding-top:1.75em; font-size:25%;">version 0.2</span>
 </div>
