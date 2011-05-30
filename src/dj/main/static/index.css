@@ -1,0 +1,54 @@
+#oneliner {
+  margin-top:10px;
+  border-bottom:4px solid #5471D9;
+  border-top:4px solid #5471D9;
+  background-color:#A8B4E4;
+  color:#FFFFFF;
+  font-size:250%;
+  padding:0.1em;
+  padding-left:0.5em;
+}
+
+.panel {
+  padding-left:5%;
+  width:90%;
+}
+
+.section {
+  font-size:110%;
+  padding-top:1em;
+  margin-left:-0.5em;
+}
+
+#privacy{
+  padding-top:2em;
+  padding-left:15%;
+  width:70%;
+  font-size:90%;
+}
+
+#tabs {
+  font-size:100%;
+  font-family : 'Ubuntu', sans-serif;
+	background: transparent;
+	border: none;
+}
+#tabs .ui-widget-header {
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #c0c0c0;
+}
+#tabs .ui-state-default {
+	background: transparent;
+	border: none;
+}
+#tabs .ui-state-active {
+	background: transparent url(/static/uiTabsArrow.png) no-repeat bottom center;
+	border: none;
+}
+#tabs .ui-state-default a {
+	color: #808080;
+}
+#tabs .ui-state-active a {
+	color: #335B9A;
+}
