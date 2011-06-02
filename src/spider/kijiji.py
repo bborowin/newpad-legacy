@@ -74,9 +74,9 @@ class Kijiji(parser.Parser):
         adUrl = 'immobilier-espaces-commerciaux'
     else:
       if "rm" == self.mode:
-        adUrl = 'housing-room-rental-roommates'
+        adUrl = 'real-estate-room-rental-roommates'
       if "ap" == self.mode:
-        adUrl = 'housing-apartments-condos'
+        adUrl = 'real-estate-apartments-condos'
       if "co" == self.mode:
         adUrl = 'housing-commercial'
 
@@ -178,4 +178,3 @@ class Kijiji(parser.Parser):
 
   def GetDescription(self, doc):
     return doc.cssselect('span#preview-local-desc')[0].text_content().strip()
-
