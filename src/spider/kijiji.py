@@ -48,9 +48,9 @@ class Kijiji(parser.Parser):
   def ListPageUrl(self, num):
     url = None
     if "ap" == self.mode:
-      url = "http://" + self._city_prefix + ".kijiji.ca/f-housing-apartments-condos-W0QQAdTypeZ2QQCatIdZ37QQmaxPriceZ9000QQminPriceZ0"
+      url = "http://" + self._city_prefix + ".kijiji.ca/f-real-estate-apartments-condos-W0QQAdTypeZ2QQCatIdZ37QQmaxPriceZ9000QQminPriceZ0"
     elif "rm" == self.mode:
-      url = "http://" + self._city_prefix + ".kijiji.ca/f-housing-room-rental-roommates-W0QQAdTypeZ2QQCatIdZ36"
+      url = "http://" + self._city_prefix + ".kijiji.ca/f-real-estate-room-rental-roommates-W0QQAdTypeZ2QQCatIdZ36"
     elif "co" == self.mode:
       url = "http://" + self._city_prefix + ".kijiji.ca/f-housing-commercial-W0QQCatIdZ40"
     if(num > 1):
